@@ -16,7 +16,7 @@ export class HomeComponent implements AfterViewInit {
   steps: Gamedle[] = [
     {
       title: 'Wordle',
-      src: 'https://www.nytimes.com/games/wordle/index.html',
+      src: 'https://wordlegame.org/',
     },
     {
       title: 'Heardle',

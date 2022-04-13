@@ -1,0 +1,16 @@
+@media screen and (min-width: 800px) {
+  mat-stepper {
+    padding: 0 20%;
+    height: 100vh;
+  }
+}
+
+iframe {
+  height: 85vh;
+  width: 100%;
+}
+
+::ng-deep .mat-horizontal-content-container {
+  margin-top: 24px;
+  padding: 0 !important;
+}

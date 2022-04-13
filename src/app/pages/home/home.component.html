@@ -1,0 +1,11 @@
+<mat-stepper #stepper [orientation]="(stepperOrientation | async)!">
+  <mat-step *ngFor="let step of steps">
+    <ng-template matStepLabel>{{ step.title }}</ng-template>
+    <iframe
+      [src]="step.src | safe: 'resourceUrl'"
+      allow="autoplay; clipboard-read; clipboard-write"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </mat-step>
+</mat-stepper>
